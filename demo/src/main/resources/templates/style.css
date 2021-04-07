@@ -1,0 +1,13 @@
+h1{
+  text-align: center;
+  background-color: skyblue;
+}
+a:visited{
+  color: #b8232a
+}
+a:hover{
+  color: green
+}
+a:active{
+  color:hotpink
+}
