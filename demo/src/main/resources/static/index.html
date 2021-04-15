@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+    <head>
+        채팅 구현
+    </head>
+<script src="main.js"></script>
+<body>
+    <div id="username-page">
+        <form id="usernameForm" name="usernameForm">
+            <div>
+                <input type="text" id="name" placeholder="사용자 이름" autocomplete="off" />
+            </div>
+            <div>
+                <button type="submit">채팅 참여</button>
+            </div>
+        </form>
+    </div>
+
+
+    <div id="chat-page" class="hidden">
+        <div>
+            <h2> 채팅 화면 </h2>
+        </div>
+        <ul id="messageBox">
+
+        </ul>
+        <form id = "messageForm" name="messageForm" nameForm=""messageForm>
+            <div>
+                <input type="text" id="message" placeholder="메시지를 입력하세요." />
+                <button type="submit">전송</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
